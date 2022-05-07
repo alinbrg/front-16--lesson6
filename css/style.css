@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+ul,
+ol {
+	list-style: none;
+}
+.container {
+	/* max-width: 991px; */
+	max-width: 1441px;
+	width: 100%;
+	margin: 0 auto;
+}
+.red-text {
+	color: red;
+}
+section.container {
+	margin-top: 100px;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+iframe {
+	width: 100%;
+	border-radius: 50px;
+}
+header {
+	background-color: blue;
+	position: fixed;
+	top: 0;
+	/* bottom: ; */
+
+	left: 0;
+	/* right: ; */
+	width: 100%;
+	z-index: 10;
+}
+header a {
+	color: white;
+}
+main h1 {
+	position: sticky;
+	top: 50px;
+	background-color: red;
+}
+.box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: aqua;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+.relative img,
+.image-box img {
+	width: 100%;
+}
+.relative,
+.image-box {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+	bottom: 20px;
+	background-color: blueviolet;
+}
+p.absolute {
+	z-index: 1;
+}
+.box.absolute {
+	background-color: bisque;
+	/* top: 50px; */
+	/* z-index: 20; */
+	/* position: static; */
+	/* display: none; */
+}
+.hero-section div p:first-child {
+	background-color: red;
+}
+.hero-section div p:last-child {
+	background-color: blue;
+}
+.hero-section div p:nth-child(2) {
+	background-color: green;
+}
+section:first-child {
+	background-color: aquamarine;
+}
+a:first-of-type {
+	background-color: red;
+}
